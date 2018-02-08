@@ -1,16 +1,5 @@
 ---
-hiera::hiera_version: '5'
-hiera::hiera5_defaults:
-  datadir: '/etc/puppetlabs/code/environments/%{literal("%")}{::environment}/hieradata'
-  data_hash: 'yaml_data'
-hiera::hierarchy:
-  - name: FQDN
-    path: 'nodes/%{literal("%")}{::fqdn}.yaml'
-  - name: Defaults
-    path: 'common.yaml'
-
 classes:
   - r10k
-  - hiera
 
 r10k::remote: 'https://github.com/puppet-bootstrap/minimal-control.git'
