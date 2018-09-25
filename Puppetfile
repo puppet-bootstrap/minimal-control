@@ -1,5 +1,3 @@
-forge "https://forge.puppetlabs.com/"
-
 # stdlib is required by many other modules.
 mod 'puppetlabs/stdlib','5.0.0'
 
