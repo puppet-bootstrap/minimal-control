@@ -2,7 +2,7 @@
 mod 'puppetlabs-stdlib', '9.7.0'
 
 # r10k gives us dynamic Puppet environments.
-mod 'puppet-r10k', '14.2.0'
+mod 'puppet-r10k', '15.0.0'
 
 # These modules are dependencies for r10k.
 mod 'puppetlabs-ruby', '1.0.1' # Required by puppet-r10k
