@@ -1,5 +1,5 @@
 # stdlib is required by many other modules.
-mod 'puppetlabs-stdlib', '10.0.1'
+mod 'puppetlabs-stdlib', '10.0.2'
 
 # r10k gives us dynamic Puppet environments.
 mod 'puppet-r10k', '15.1.0'
